@@ -1,0 +1,57 @@
+.jumbotron {
+    background-color: #5E74A1;
+    color: #ffffff;
+    padding: 100px 25px;
+    font-family: sans-serif;
+    text-align: center; /* Corregido con punto y coma */
+}
+
+.container-fluid {
+    padding: 40px 50px;
+}
+
+.bg-gray {
+    background-color: #DCDCDC;
+}
+
+.panel {
+    border: 1px solid #EDC45B;
+}
+
+.panel:hover {
+    -webkit-box-shadow: 3px 7px 30px #008000; /* Agregado el prefijo para compatibilidad */
+    box-shadow: 3px 7px 30px #008000;
+}
+
+.equipo .panel-heading {
+    color: #fff;
+    background-color: #F7780F;
+    padding: 25px;
+    border-bottom: 1px solid;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.panel-footer {
+    background-color: #EDC45B;
+}
+
+.panel-footer h4 {
+    color: #0C32F5;
+    font-size: 15px;
+}
+
+@media screen and (min-width: 320px) {
+    img {
+        max-width: 100%;
+        height: auto; /* Asegura que las imágenes mantengan la proporción */
+    }
+}
+
+@media screen and (min-width: 768px) {
+    img {
+        max-width: 150px;
+        height: auto; /* Asegura que las imágenes mantengan la proporción */
+    
